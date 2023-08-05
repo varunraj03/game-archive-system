@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    
+    
+}
+
+/* .heads{
+background: linear-gradient(black,grey);
+
+
+color: white;
+} */
+h1{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 650px;
+}
+.upper{
+   display: flex;
+    
+    
+}
+.headlo
+{ 
+   
+    list-style: circle;
+   display: flex;
+   flex-direction: row;
+  
+}
+
+.navbar{
+    background :linear-gradient(black) ;
+   
+    
+}
+.navbar ul{
+    overflow: auto;
+    text-align: right;
+}
+.navbar li{
+    float:right;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+/* .search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+} */
+/* .navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+} */
+.bod{
+   
+    display: flex;
+    
+}.qwert{
+    width:30px;
+    height:50px;
+}
+.leftone{
+    width: 13vw;
+  height: 350vh;
+    
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    
+    /* border-style: double;
+    border-width: 5px;
+    border-color: white; */
+}
+.rightone{
+     border-style: double;
+    border-width: 20px;
+    border-color: rgb(23, 16, 16); 
+   
+    /* background-image: url("image9.png"); */
+    /* background-repeat: no-repeat;
+    background-color:white;
+    background-size:892.36px 3678px ;
+    background-position: center; */
+    color: rgb(252, 240, 240);
+    padding-left: 50px;
+}
+.headingtopic{
+    color:aqua;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.boxdrop{
+    margin-top: 10px;
+ 
+    background-color:greenyellow;
+    color: rgb(246, 243, 243);
+    
+
+
+}
+.boxdrop li{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    list-style: none; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.categories{
+  padding-top: 10px;
+  padding-left:0px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-right: 100px;
+}
+.categories li{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    list-style: none; 
+}
+.heading2{
+   margin-top: 30px;
+    text-align: left;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 50px;
+     font-weight: bolder;
+     padding-bottom: 30px;
+}
+
+
+.foots{
+    background-color: black;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 05px;
+    border-color: aliceblue;
+
+
+}
+.lowerupper
+{ display: flex;
+    align-items: center;
+   
+    color: pink;
+    background: linear-gradient(black,rgb(61, 53, 53));
+}
+.lowerupper li
+{  padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: disc; 
+
+}
+h3{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+.new1,.new3{
+    width: 20%;
+}
+.new2{
+    width:60%;
+}
+.headings{
+    font-weight: bold;
+    font-size: 35px;
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.titles{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    
+}
+.ids{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+color:red;
+    
+}
+.gamereqs,.gamedes,.installation{
+    font-size:25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gameimage{
+    padding-bottom: 30px;
+    border-style: bold;
+    border-width: 50px;
+}
+
+.btn {
+    background-color: RED;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+   
+   
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  .combo{
+    display: flex;
+  }
+
+  .categoriess li{
+    list-style: circle;
+    font-weight: bold;
+    font-size: 30px;
+    padding:5px 5px;
+  }
+  .gamelist{
+    padding:15px 15px ;
+    
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+  }
+  .gamelist li{
+    padding :10px 10px;
+  }
+  body{
+
+    background-color: rgba(0, 0, 0, 0.695);
+    color: white;
+  }

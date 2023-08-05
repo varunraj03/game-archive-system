@@ -1,0 +1,124 @@
+<!-- write a page for entry of game details and save it as game_details.html
+which takes game name and game id and store it in database table game_list from game_archive -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .box1{
+      
+      border: 2px solid black;
+      background-color: #200404;
+      margin-right: 80%;
+      margin-left: 20%;
+      position: absolute;
+      display: flex;
+      margin-bottom: 50%;
+      height: fit-content;
+      padding-right: 50%;
+      margin-top: 10%;
+      opacity: 0.5;
+      border-radius: 2rem;
+      
+      
+    } 
+    
+    body{
+      background-image: url('image5.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      
+      
+      
+      
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10%;
+      margin-left: 210%;
+      margin-right: 10%;
+      margin-bottom: 10%;
+      padding: 10%;
+      color: aliceblue;
+      opacity: 1;
+
+      
+      
+      
+    }
+    .button {
+      all: unset;
+      height: 30px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      color: black;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      margin-bottom: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      margin-left: 30px
+
+    }
+    .button:hover {
+      transform: scale(1.2);
+      background-color: rgb(255, 119, 0);
+      color: white;
+    }
+    .button1{
+      all: unset;
+      height: 30px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      color: black;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      margin-bottom: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      
+    }
+    
+    
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+</head>
+<body>
+  <div class="box1">
+    <div class="container">
+      <h3>ENTER THE GAME DETAILS</h3>
+      <form action="game_entry.php" method="POST">
+        <label for="id">Game ID</label>
+        <input type="text" name="id" id="id" placeholder="Enter Game ID" required>
+        <br>
+        <label for="game_name">Game Name</label>
+        <input type="text" name="game_name" id="game_name" placeholder="Enter Game Name" required>
+        <br>
+        <input type="submit" value="Submit" class="button">
+        
+      </form>
+      
+       <button class="button1"><a href="game_list.php">THE GAMES</a></button> 
+      
+    </div>
+  </div>
+
+</body>
+</html>

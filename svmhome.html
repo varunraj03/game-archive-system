@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .wrapper {
+            margin:0px;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            background-color: black;
+          }
+          .button {
+            padding: 15px 100px;
+            margin: 10px 4px;
+            color: #eee;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+            text-decoration: none;
+            display: inline-block;
+            border: 1px solid;
+          }
+          .button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            -webkit-transform: scaleY(.1);
+            transform: scaleY(.1);
+            transition: all .4s
+          }
+          .button:hover {
+            color: #14ba38;
+          }
+          .button:hover::before {
+            opacity: 1;
+            background-color: #f7c2f9;
+            -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+            transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
+            transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
+          }
+        .discover button {
+            box-shadow: #343640;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            color: rgb(230, 214, 214);
+            border-radius: 5px;
+            width: 100px;
+            height: 35px;
+            
+        }
+        
+        div.bgimage{
+            background-image: url('image4.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+        
+        
+    
+        .box div {
+            font-size: 1.2rem;
+        }
+        .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+.boxing{
+    background-color: #000000;
+    
+    
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: #eee;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.exp{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+    
+    </style>
+    
+    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<body>
+    
+
+    
+    <div class="bgimage">
+        <div class="menu">
+
+            <div class="leftmenu">
+                <h4 style="font: size 800px ;">HYDRA GAMING</h4>
+            </div>
+
+            <div class="rightmenu">
+                <ul>
+                    
+                    <li id="firstlist">Home</li>
+                    <a href="about_us.html"><li>About Us</li></a>
+                    <a href="svm_signup.html"><li>sign up</li></a>
+                    <a href="admin_login.html"><li>Admin</li></a>
+                    
+                </ul>
+            </div>
+
+        </div>
+       
+    </div>
+
+
+
+
+    
+    
+    
+    <div class="wrapper">
+        <span class="button"><a href="svmlogin.html"</a><p class="exp">EXPLORE</p></span>
+    
+    </div>
+
+
+
+      <!-- Site footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify"> <i>  JIYA,KHYATI,MANAS,HARSHIT,KARAMVEER </i> are the developer of this website , the aim of this webiste is to provide easy access to imformation regarding launch of new games for the game lovers and providing information reagrding previous version</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li>action games</li>
+                <li>Adventurous games</li>
+                <li>Racing games</li>
+                <li>Games for kids</li>
+                <li>Sprots games</li>
+
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Contacts</h6>
+              <ul class="footer-links">
+                
+                <li><a href="">Contact Us @9414970777</a></li>
+                
+                <li><a href=">Privacy Policy</a></li>
+                
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 202 All Rights Reserved by 
+           <a>Hydra gaming</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+    
+    
+   
+    
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
